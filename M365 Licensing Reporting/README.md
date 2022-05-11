@@ -8,11 +8,11 @@ To use this flow in your environment follow this steps:
 
 1. Create a SharePoint Online list with the following columns:
 
-Title
-SkuID (single line of text)
-ConsumedUnits (single line of text)
-PrepaidUnits (single line of text)
-RemainingUnits (single line of text)
+Title;
+SkuID (single line of text);
+ConsumedUnits (single line of text);
+PrepaidUnits (single line of text);
+RemainingUnits (single line of text);
 Date (Date and time - date only)
 
 2. Go to https://flow.microsoft.com and make sure you are in the environment you want to import the flow to
@@ -22,7 +22,7 @@ Date (Date and time - date only)
 6. Choose create as new
 7. Choose SharePoint and Outlook 365 connections, or create them if these don't already exist
 8. Click Import
-9. The import will fail, but you can click "Save as new flow," and you will be able taken into edit mode for this flow
+9. The import will fail, but you can click "Save as new flow," and you will be taken into edit mode for this flow
 10. Update the HTTP action with your app registration information
 11. Expand the Apply to Each, and set the connection for the Create item SharePoint action.
 12. Replace the site and list accordingly - the columns should pre-populate along with the dynamic content as per the template
