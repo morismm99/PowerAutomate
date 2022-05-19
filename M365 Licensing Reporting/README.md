@@ -18,13 +18,10 @@ Date (Date and time - date only)
 2. Go to https://flow.microsoft.com and make sure you are in the environment you want to import the flow to
 3. Click My Flows in the left menu
 4. Select Import
-5. Browse and choose the "GetM365usbscribedSKUSV1_20220504203506.zip" package.
+5. Browse and choose the "GetM365usbscribedSKUSV2_20220519143721.zip" package.
 6. Choose create as new
 7. Choose SharePoint and Outlook 365 connections, or create them if these don't already exist
 8. Click Import
-9. The import will fail, but you can click "Save as new flow," and you will be taken into edit mode for this flow
-10. Update the HTTP action with your app registration information
-11. Expand the Apply to Each, and set the connection for the Create item SharePoint action.
-12. Replace the site and list accordingly - the columns should pre-populate along with the dynamic content as per the template
-13. Set the connection for the Send an Email (v2) action - customize the html further if needed.
+9. Open the flow when import is complete
+10. Update the AzureTenantID, AppRegistrationID, AppSecret, SiteURL, SPO List, and AdminEmail variables with your actual tenant information.
 14. Save the flow
