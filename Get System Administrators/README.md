@@ -23,5 +23,5 @@ The Excel File needs to have a sheet with a table in it with the following colum
 7. Click Next on the details page
 8. Choose Dataverse and Excel Online Business connections, or create them if these don't already exist
 9. Click Import
-11. Open the "Get System Administrator" flow and update the "Add row into table" action, updating the Location, Document Library, File, and Table.
-12. Save the flow
+10. Open the "Get System Administrator" flow and update the "Add row into table" action, updating the Location, Document Library, File, and Table.
+11. Save the flow
