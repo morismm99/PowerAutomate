@@ -23,7 +23,7 @@ Credit to Tom, as he has a great blog post outlining this process - https://tomr
 1. Go to https://flow.microsoft.com and make sure you are in the environment you want to import the flow to
 2. Click Solutions in the left menu
 3. Select Import Solution from the top menu
-4. Browse and choose the "MultipleAssigneeNotifications_1_0_0_1.zip" package.
+4. Browse and choose the "MultipleAssigneeNotifications_1_0_0_2.zip" package.
 5. Click Next
 6. Click Next on the details page
 7. Choose SharePoint and Outlook connections, or create them if these don't already exist
