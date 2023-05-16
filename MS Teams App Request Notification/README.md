@@ -2,19 +2,19 @@
 
 Do you want to use your own app request process/form for requests to unblock app in MS Teams? If so, this would allow you to create something like an MS Form and redirect users to fill it out which can kick off a Power Automate cloud flow to send notifications via Teams or drive further automation.
 
-In the Teams Admin Center, ![a Teams Admin can modify the default setting to receive user requests on your custom webpage.](https://learn.microsoft.com/en-us/MicrosoftTeams/user-requests-approve-apps#modify-the-default-setting-to-receive-user-requests-on-your-custom-webpage)
+In the Teams Admin Center, [a Teams Admin can modify the default setting to receive user requests on your custom webpage.](https://learn.microsoft.com/en-us/MicrosoftTeams/user-requests-approve-apps#modify-the-default-setting-to-receive-user-requests-on-your-custom-webpage)
 
 This (sample) custom solution uses the following:
  
-1. MS Form owned by a group for users to sumbit app requests.
+1. MS Form owned by a group for users to submit app requests.
 2. SharePoint Online list to store app requests.
 2. Power Automate flow that triggers when new responses are submitted, stores them on the SPO list and sends a notification to a Team's channel.
 
-Additional functionality/automation can be built it, but keeping this simple as a starting point.
+Additional functionality/automation can be built, but keeping this simple as a starting point.
 
 ## MS Form
 
-The first step is creating a ![Microsoft Form](https://forms.office.com). It is recommended to create this form inside of an M365 Group. * *You can add additional questions of coure. If you do this, you will need to create additional columns to store that data in the SPO list.* * 
+The first step is creating a [Microsoft Form](https://forms.office.com). It is recommended to create this form inside of an M365 Group. * *You can add additional questions of coure. If you do this, you will need to create additional columns to store that data in the SPO list.* * 
 
 **Form questions**:
 
