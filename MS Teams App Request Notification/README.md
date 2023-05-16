@@ -59,7 +59,7 @@ Here is a sample of what the MS Teams channel messsage looks like based on the t
 1. Go to https://make.powerautomate.com and make sure you are in the environment you want to import the flow to
 2. Click My Flows in the left menu
 3. Select Import
-4. Browse and choose the "MSTeamsAppRequestNotification_20230516162251.zipp" package.
+4. Browse and choose the "MSTeamsAppRequestNotification_20230516162251.zip" package which can be downloaded from this repo
 5. Choose create as new
 6. Choose MS Forms, SharePoint and MS Teams connections, or create them if these don't already exist
 7. Click Import
