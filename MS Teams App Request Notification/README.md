@@ -22,6 +22,8 @@ The first step is creating a [Microsoft Form](https://forms.office.com). It is r
 2. Please provide the link/URL to the app which can be found in MS Teams via the copy link right next to the Request Approval button. (Text)
 3. Please provide a business justification for this application. (Text - Long answer)
 
+You can start from this template - [Ms Teams Apps Request Form](https://forms.office.com/Pages/ShareFormPage.aspx?id=hzZZwtK93ECdNxQO_bv-05QDX9wXeUhOkFToE-qKBGhUNUkyN1BYTTVMR0pXWVhaWkZFSVlTQ0g1MyQlQCN0PWcu&sharetoken=GGmC36uYJwyL6l2DQaO5)
+
 **Form settings**:
 
 ![Form Settings](https://github.com/morismm99/PowerAutomate/blob/main/MS%20Teams%20App%20Request%20Notification/FormSettings.png?raw=true)
