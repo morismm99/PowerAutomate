@@ -50,6 +50,9 @@ This flow triggers anytime a form is filled out. It grabs the form responses and
 
 ![Flow Part 2](https://github.com/morismm99/PowerAutomate/blob/main/MS%20Teams%20App%20Request%20Notification/FlowPart2.png?raw=true)
 
+Here is a sample of what the MS Teams channel messsage looks like based on the template:
+
+![Teams Message](https://github.com/morismm99/PowerAutomate/blob/main/MS%20Teams%20App%20Request%20Notification/TeamsNotification.png?raw=true)
 
 ## MSTeamsAppRequestNotification_20230516162251.zip flow package
 
@@ -69,3 +72,5 @@ This flow triggers anytime a form is filled out. It grabs the form responses and
 Follow these instrutions - [Modify the default setting to receive user requests on your custom webpage](https://learn.microsoft.com/en-us/MicrosoftTeams/user-requests-approve-apps#modify-the-default-setting-to-receive-user-requests-on-your-custom-webpage).
 
 For step 4.b, grab the MS Form collaborate URL/Link and add it there. This is what will re-route end users to fill out your form when trying to request apps to be unblocked in MS Teams.
+
+![Admin Setting](https://github.com/morismm99/PowerAutomate/blob/main/MS%20Teams%20App%20Request%20Notification/AdminSetting.png?raw=true)
