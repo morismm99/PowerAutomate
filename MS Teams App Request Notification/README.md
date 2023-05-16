@@ -26,7 +26,6 @@ The first step is creating a [Microsoft Form](https://forms.office.com). It is r
 
 ![Form Settings](https://github.com/morismm99/PowerAutomate/blob/main/MS%20Teams%20App%20Request%20Notification/FormSettings.png?raw=true)
 
-
 ## SharePoint Online List
 
 One list is needed - **MS Teams App Requests**
@@ -38,6 +37,8 @@ Custom columns needed:
 3. AppURL (Hyperlink)
 4. BusinessJustification (Multiple lines of text)
 5. Status (Choice - choices: New, Review In Progress, Approved, Rejected)
+
+![SPO Lit](https://github.com/morismm99/PowerAutomate/blob/main/MS%20Teams%20App%20Request%20Notification/SPOList.png?raw=true)
 
 ## Power Automate Flow
 
