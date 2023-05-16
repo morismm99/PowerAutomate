@@ -61,5 +61,5 @@ This flow triggers anytime a form is filled out. It grabs the form responses and
 7. Click Import
 8. Open the flow when import is complete
 9. Update the MS Form ID, SPO Site/List and MS Teams/Channel where the notification will be posted.
-10. Save the flow
+10. Save the flow - * *if the import fails, there will be a link that says **Save as new flow** click on that to be able to open it and edit it.* * 
 
