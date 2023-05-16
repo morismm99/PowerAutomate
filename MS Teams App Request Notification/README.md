@@ -1,6 +1,6 @@
 # MS Teams App Request Notification
 
-Do you want to use your own app request process/form for requests to unblock app in MS Teams? If so, this would allow you to create something like an MS Form and redirect users to fill it out which can kick off a Power Automate cloud flow to send notifications via Teams or drive further automation.
+Do you want to use your own app request process/form for requests to unblock apps in MS Teams? If so, this would allow you to create something like an MS Form and redirect users to fill it out which can kick off a Power Automate cloud flow to send notifications via Teams or drive further automation.
 
 In the Teams Admin Center, [a Teams Admin can modify the default setting to receive user requests on your custom webpage.](https://learn.microsoft.com/en-us/MicrosoftTeams/user-requests-approve-apps#modify-the-default-setting-to-receive-user-requests-on-your-custom-webpage)
 
@@ -63,3 +63,8 @@ This flow triggers anytime a form is filled out. It grabs the form responses and
 9. Update the MS Form ID, SPO Site/List and MS Teams/Channel where the notification will be posted.
 10. Save the flow - * *if the import fails, there will be a link that says **Save as new flow** click on that to be able to open it and edit it.* * 
 
+## Update MS Teams Org-wide App settings
+
+Follow these instrutions - [Modify the default setting to receive user requests on your custom webpage](https://learn.microsoft.com/en-us/MicrosoftTeams/user-requests-approve-apps#modify-the-default-setting-to-receive-user-requests-on-your-custom-webpage).
+
+For step 4.b, grab the MS Form collaborate URL/Link and add it there. This is what will re-route end users to fill out your form when trying to request apps to be unblocked in MS Teams.
